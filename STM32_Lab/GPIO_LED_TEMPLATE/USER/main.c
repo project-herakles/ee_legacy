@@ -1,29 +1,23 @@
 //#include "stm32f4xx.h"
 #include "led.h"
 #include "delay.h"
-
-
+#include "button.h"
+	
 
 int main(void)
 {
- delay_init(168);
+ 
 	
- LED_Init();
+	LED_Init();
+	Button_Init();
 	
 	while(1){
-		GPIO_SetBits(GPIOE,GPIO_Pin_7);
-			//GPIO_SetBits(GPIOF,GPIO_Pin_14);
-		GPIO_SetBits(GPIOF, GPIO_Pin_1);
-		delay_ms(500);
-		
-			GPIO_ResetBits(GPIOE,GPIO_Pin_7);
-			//GPIO_ResetBits(GPIOF,GPIO_Pin_14);
-			GPIO_ResetBits(GPIOF, GPIO_Pin_1);
-	
-	   delay_ms(500);
-	
-	
+		if (GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_10)){
+			RED_LED_TOGGLE();
+			GREEN_LED_TOGGLE();
+		}
 	}
 
 }
+
 
