@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="stm32f405RG" TargetInterface="SWD" InterfaceSpeed="3200" />
+            </JLink>
+            <ScriptFile Name="C:\Users\RoboMasters\Desktop\tech\Bitbucket\Pure_Gimbal\RM2016_INFANTRY_OPEN_SOURCEV.1.6.4\Outputs\Supervisor.jscope\unspecified" />
+            <ElfFile Name="C:\Users\RoboMasters\Desktop\tech\Bitbucket\Pure_Gimbal\RM2016_INFANTRY_OPEN_SOURCEV.1.6.4\Outputs\RM2016_Infantry.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="freq" Address="0x200004F4" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="16" YMaxSampled="500" YAvgSampled="371" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="500" MaxValue="1000" File="APP\ControlTask.c" Scope="1" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="GimbalPosition_fdb_supervisor" Address="0x20000500" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="8" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="2" File="APP\ControlTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="time_tick_1ms" Address="0x200004F0" Type="uint" TypeID="8" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="51134" YMaxSampled="78652" YAvgSampled="69296" Offset="12" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="50000" MaxValue="100000" File="APP\ControlTask.c" Scope="1" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="GimbalPosition_ref_supervisor" Address="0x200004FC" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-60" YMaxSampled="60" YAvgSampled="3" Offset="16" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="50" MaxValue="100" File="APP\ControlTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="ref" Address="0x200001D0" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-60" YMaxSampled="60" YAvgSampled="3" Offset="20" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="50" MaxValue="100" File="APP\ControlTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="fdb" Address="0x200001D4" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="24" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="2" File="APP\ControlTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="output" Address="0x20000204" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="-897" YMaxSampled="902" YAvgSampled="47" Offset="28" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="500" MaxValue="1000" File="APP\ControlTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

@@ -1,0 +1,33 @@
+
+T2C84 000:058 SEGGER J-Link V6.10i Log File (0001ms, 0022ms total)
+T2C84 000:058 DLL Compiled: Oct 25 2016 19:31:51 (0001ms, 0022ms total)
+T2C84 000:058 Logging started @ 2018-02-04 22:18 (0001ms, 0022ms total)
+T2C84 000:059 JLINK_SetWarnOutHandler(...) (0000ms, 0022ms total)
+T2C84 000:059 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N: 304439649
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFULLWEBSRV Webserver running on local port 19080 (0010ms, 0032ms total)
+T2C84 000:059   returns O.K. (0010ms, 0032ms total)
+T2C84 000:069 JLINK_SetErrorOutHandler(...) (0000ms, 0032ms total)
+T2C84 000:069 JLINK_ExecCommand("ProjectFile = "C:\Users\RoboMasters\Desktop\tech\Bitbucket\MPU6050 Serial\USER\JLinkSettings.ini"", ...).   returns 0x00 (0087ms, 0119ms total)
+T2C84 000:158 JLINK_ExecCommand("Device = STM32F405RGTx", ...). Device "STM32F405RG" selected.  returns 0x00 (0001ms, 0120ms total)
+T2C84 000:159 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0120ms total)
+T2C84 000:159 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0120ms total)
+T2C84 000:159 JLINK_GetDLLVersion()  returns 61009 (0000ms, 0120ms total)
+T2C84 000:159 JLINK_GetFirmwareString(...) (0000ms, 0120ms total)
+T2C84 000:162 JLINK_GetDLLVersion()  returns 61009 (0000ms, 0120ms total)
+T2C84 000:162 JLINK_GetCompileDateTime() (0000ms, 0120ms total)
+T2C84 000:187 JLINK_GetFirmwareString(...) (0000ms, 0120ms total)
+T2C84 000:189 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0120ms total)
+T2C84 000:196 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0121ms total)
+T2C84 000:197 JLINK_SetSpeed(5) (0000ms, 0121ms total)
+T2C84 000:197 JLINK_GetId() >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF>
+ >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed. >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.  returns 0x00000000 (1057ms, 1178ms total)
+T2C84 227:396 JLINK_Close() (0009ms, 1187ms total)
+T2C84 227:396  (0009ms, 1187ms total)
+T2C84 227:396 Closed (0009ms, 1187ms total)
