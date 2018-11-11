@@ -45,6 +45,6 @@
 ".\outputs\sinewave.o"
 ".\RmLib\RMLib.lib"
 --library_type=microlib --strict --scatter ".\Outputs\RM2016_Infantry.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\RM2016_Infantry.map" -o .\Outputs\RM2016_Infantry.axf
